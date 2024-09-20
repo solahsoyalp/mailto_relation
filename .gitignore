@@ -1,0 +1,5 @@
+
+# Ignore node_modules and dist directory
+node_modules/
+dist/
+src.pem

@@ -1,0 +1,15 @@
+
+{
+  "manifest_version": 3,
+  "name": "mailto_relation",
+  "version": "1.0",
+  "description": "mailto:リンクをカスタムURLで開く拡張機能です。",
+  "permissions": ["storage"],
+  "options_page": "options.html",
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
